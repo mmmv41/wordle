@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
+.keyboard-row {
+  /* 키보드의 행 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.keyboard-column {
+  /* 키보드의 열 */
+  background-color: #c0c0c0; /* 키보드 버튼의 배경색 (밝은 회색) */
+  color: #000000; /* 검은색 글자 */
+  margin: 5px; /* 키보드 버튼 (열) 사이의 간격 */
+  padding: 10px; /* 알파벳과 키보드버튼 사이의 간격 */
+  text-align: center;
+  border-radius: 5px; /* 버튼의 모서리를 둥글게 */
+}
